@@ -1,2 +1,17 @@
 # cocoon-mario
-Super Mario Bros in CocoonJS Canvas+. Written with Backbone Game Engine.
+Super Mario Bros in [CocoonJS Canvas+](http://support.ludei.com/hc/en-us/articles/200767118-Canvas-development-Guide). Written with [Backbone Game Engine](http://martindrapeau.github.io/backbone-game-engine/), an HTML5 mobile 2D platformer framework.
+
+Run in the browser
+------------------
+Go to this URL:
+
+
+Run in [CocoonJS Launcher](http://support.ludei.com/hc/en-us/articles/201048463-CocoonJS-launcher-user-guide)
+------------------------
+
+Load this URL:
+
+
+
+
+
