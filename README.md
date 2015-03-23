@@ -4,13 +4,14 @@ Super Mario Bros in [CocoonJS Canvas+](http://support.ludei.com/hc/en-us/article
 Run in the browser
 ------------------
 Go to this URL:
+http://martindrapeau.github.io/cocoon-mario/
 
 
 Run in [CocoonJS Launcher](http://support.ludei.com/hc/en-us/articles/201048463-CocoonJS-launcher-user-guide)
 ------------------------
 
 Load this URL:
-
+http://martindrapeau.github.io/cocoon-mario/cocoon-mario.zip
 
 
 
