@@ -73,7 +73,7 @@ $(window).on("load", function() {
       // Our world
       // Reserve bottom of canvas for input and editor
       this.world = new Backbone.World(
-        _.extend({viewportBottom: 156}, window._world, {state: "pause"}), {
+        _.extend({viewportBottom: 156}, window._world), {
         input: this.input,
         camera: this.camera
       });
@@ -146,7 +146,7 @@ $(window).on("load", function() {
 
       // If we have Application Cache active, load the latest world
       this.loadWorld();
-      this.world.set("state", "play");
+      this.world.drawBackground = true;
     },
     toggleState: function(e) {
       var state = this.world.get("state");
