@@ -73,7 +73,7 @@ $(window).on("load", function() {
       // Our world
       // Reserve bottom of canvas for input and editor
       this.world = new Backbone.World(
-        _.extend({viewportBottom: 156}, window._world), {
+        _.extend({viewportBottom: 156}, window._world, {state: "pause"}), {
         input: this.input,
         camera: this.camera
       });
