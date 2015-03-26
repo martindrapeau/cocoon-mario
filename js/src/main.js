@@ -146,6 +146,7 @@ $(window).on("load", function() {
 
       // If we have Application Cache active, load the latest world
       this.loadWorld();
+      this.world.set("state", "play");
     },
     toggleState: function(e) {
       var state = this.world.get("state");
